@@ -22,7 +22,7 @@ class FileInput
 	public void getInputs() throws FileNotFoundException
 	{
 		int counter=0;
-		FileInputStream fInput=new FileInputStream("config.json");
+		FileInputStream fInput=new FileInputStream("C:/Users/Mayank/Documents/GitHub/InvertedIndex/Input/config.json");
 		Scanner sInput=new Scanner(fInput);
 		sInput.useDelimiter("\"");
 		while(sInput.hasNext())

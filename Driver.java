@@ -19,20 +19,18 @@ class Driver
 	ArrayList<String> al;		//Every words of the File
 	ArrayList<String> findIndex;	//Unique Word in the File
 	static ArrayList<InvertedIndex> alInvertedIndex;		//Storing Each Word with It's Location sorted by name
-	static fileInput fInput;
+	static FileInput fInput;
 	static String []listFiles;	//Contaning the list of all the file names
-	static ArrayList<TopWords> topWords;
 	
 	Driver()
 	{
 		findIndex=new ArrayList<String>();
 		al=new ArrayList<String>();
-		topWords=new ArrayList<TopWords>();
 	}
 	public static Driver display() throws IOException
 	{
-		fInput=new fileInput();
 		alInvertedIndex=new ArrayList<InvertedIndex>();
+		fInput=new FileInput();
 		fInput.getInputs();
 		fInput.displayInputs();
 		File fObj=new File(fInput.path);
