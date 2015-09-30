@@ -2,7 +2,8 @@ import java.util.*;
 import java.io.*;
 
 /*
- * This class encapsulates the objects of InvertedIndex Class and executes the whole thing to calculate the Frequency/ Words.
+ * This class encapsulates the objects of InvertedIndex Class and executes the whole thing to calculate the Frequency count
+ * of each words appearing in all files of directory as mentioned in JSON. Also sort them alphabetically.
  *
  * Made by Mayank Thirani. You can edit, copy and do all kind of stuff 
  * except for nefarious ones. Any harm or injury as well as danger caused by the use
